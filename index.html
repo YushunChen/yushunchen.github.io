@@ -1,0 +1,280 @@
+<!--  -->
+<!-- <a href="" target="_blank"> -->
+<!-- TODO: Smooth scrolling when clicking an anchor link -->
+<!-- TODO: Build lab -->
+<!DOCTYPE html>
+
+<html lang="en-us">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+
+    <!-- Font Awesome for social media icons -->
+    <script src="https://kit.fontawesome.com/791291c78f.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Site Information -->
+    <title> Yushun (Oliver) Chen | 陈昱舜 </title>
+
+    <style type="text/css">
+      .smlinks {
+            color: black;
+        }
+      .smlinks:hover {
+          color: rgb(7, 107, 255);
+      }
+      /*html, body { scroll-behavior:smooth; }*/
+      /* Conflicts with "collapse nav bar on click" */
+    </style>
+
+    <!-- Favicon -->
+    <!-- https://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+  </head>
+  <body>
+    
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand" href="index.html">Yushun Chen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="courses.html">Course Guide</a>
+          </li>
+          <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center" style="background: url(images/lakeBackground.jpg); background-size: cover">
+      <div class="container">
+          <h1 class="jumbotron-heading">Yushun Chen</h1>
+          <img src="images/profile-pic.jpg" width=250 length=300 style="border-radius: 50%;align-items: center;justify-content: center;overflow: hidden;">
+          <p class="lead text-muted">Stats + Math @ UW-Madison.</p>
+          <a href="files/Resume.pdf" target="_blank"><button type="button" class="btn btn-outline-primary">Résumé</button></a>
+          <a href="courses.html"><button type="button" class="btn btn-outline-primary">Course Guide</button></a>
+          <a href="/blog"><button type="button" class="btn btn-outline-primary" disabled>Blog</button></a>
+<!--           <button type="button" class="btn btn-outline-primary" disabled>Lab</button>
+ -->          <!-- <p class="lead text-muted"> -->
+      </div>
+    </section>
+
+    <!-- About -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Fake anchor, otherwise the fixed navbar on the top would cover the title -->
+          <a id="about" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
+          <h1>ABOUT Yushun (Oliver) Chen</h1>
+          <p>
+            The boy who wouldn't grow up? That's a different Peter (we've got things in common, though). I am an undergraduate sophomore at the University of Wisconsin-Madison majoring in Computer Sciences and Math. If you need some quick information about me, here's my <a href="files/resume.pdf" target="_blank">résumé</a>... but keep scrolling down if you want to know more about me! 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interests -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Fake anchor, otherwise the fixed navbar on the top would cover the title -->
+          <a id="interests" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
+          <h1>INTERESTS</h1>
+          <p>Behold, a list of my (technical) skills:</p>
+          <ul>
+            <li>I know it well: Java ☕, Python 🐍, C#, Git, Unity3D</li>
+            <li>Moderate familiarity: HTML/CSS, JavaScript, MySQL, UNIX, BootStrap, C, R, Data Analysis 📊</li>
+            <li>Some exposure: PHP, C++, Node.js, JQuery, LaTex, Arduino</li>
+          </ul>
+          <p>If you are not a tech person, you might want to know some of my non-technical hobbies:</p>
+          <ul>
+            <li>Talk in movie quotes, especially from the <a href="https://www.reddit.com/r/prequelmemes" target="_blank">Star Wars prequels</a>.</li>
+            <li>Also, all science fictions 🖖. bortaS blr jablu'DI'reH QaQqu' nay'!</li>
+            <li>Sports. I play a lot of soccer ⚽and I am a fan of <a href="https://www.fcbarcelona.com/en/" target="_blank">Barcelona 🇪🇸</a>, <a href="https://www.evertonfc.com/home/" target="_blank">Everton 🏴󠁧󠁢󠁥󠁮󠁧󠁿</a>, and <a href="http://www.thecfa.cn/" target="_blank">国足 🇨🇳</a>. My favorite XI is available <a href="https://www.buildlineup.com/shared/5e4cbf6e138c092e24af0265" target="_blank">here</a> (subject to change). I also 🏊‍♂️,⛸️,and 🎱.</li>
+            <li>Music. I play accordion 🎹and alto saxophone 🎷. Check out my <a href="https://open.spotify.com/playlist/71aYmbuK4fl0PqCpKKNSKX" target="_blank">Spotify playlist</a>!</li>
+            <li>New hobby: Everything about police 🚔</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Fake anchor, otherwise the fixed navbar on the top would cover the title -->
+          <a id="education" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
+          <h1>Education🎓</h1>
+          <ul class="list-unstyled">
+            <!-- UW-Madison -->
+            <li class="media">
+              <img src="images/uwmadison.png" class="mr-3" alt="..." width="64" height="64">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">University of Wisconsin-Madison🦡</h5>
+                <p class="badge badge-info">Sep 2020 - May 2021 (Estimated)</p>
+                <p class="badge badge-info">B.S. CS & Math</p>
+                <p class="badge badge-info">GPA: 3.94</p>
+                <p>As mentioned above, I'm a proud second-year undergrad at UW-Madison. Go Badgers!</p>
+                <p>Visit the <a href="courses.html">course guide</a> to see my coursework!</p>
+                <p>Apart from classes, I spend my time working and helping people around me. I worked at <a href="">Liz's Market</a>, an on-campus dining hall, as a student supervisor during my freshman year. I moved on to tutor computer sciences and math class at <a href="">ULC</a> in my second year. I'm also a member of the <a href="https://www.facebook.com/STLFUW/" target="_blank">STLF</a>, a volunteering organization.</p>
+              </div>
+            </li> 
+            <!-- Coursera --> 
+            <li class="media">
+              <img src="images/coursera.jpeg" class="mr-3" alt="..." width="64" height="64">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Coursera</h5>
+                <p class="badge badge-info">Jun 2018 - Present</p>
+                <p>I have been taking multiple online courses since summer 2018. Also check out the <a href="courses.html">course guide</a> to see the courses I took. I also contribute to translating English subtitles to Chinese. <a href="" target="_blank">The Global Translator Community (GTC)</a> needs you!</p>
+              </div>
+            </li>
+            <!-- Cal -->
+            <li class="media">
+              <img src="images/ucb.png" class="mr-3" alt="..." width="64" height="64">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">University of California, Berkeley🐻</h5>
+                <p class="badge badge-info">Jun 2019 - Aug 2019</p>
+                <p class="badge badge-info">GPA: 4.0</p>
+                <p>I took CS 61C during a summer term at Berkeley. I really enjoyed how Berkeley instructors used <a href="https://piazza.com/stats/report/jw6kndsic346lm" target="_blank">piazza</a>. I also audited in CS 61A and a little bit of CS 188 and CS 189. Go <span style="text-decoration: line-through;">Badgers</span> Bears! If you go to school in Madison and you are thinking about some new flavors for your summer, check out <a href="/blog/posts/how-to-transfer-your-credit-back-to-uw%5C-madison/" target="_blank">my blog about transferring credits</a>.</p>
+              </div>
+            </li>
+            <!-- HSASJTU -->
+            <li class="media">
+              <img src="images/hsasjtu.jpg" class="mr-3" alt="..." width="64" height="64">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">High School Affiliated to Shanghai Jiao Tong University 上海市交通大学附属中学</h5>
+                <p class="badge badge-info">Sep 2015 - Jun 2018</p>
+                <p>Activities: Defensive Midfielder in Varsity Extramural Soccer Team, Programmer Leader in FTC Team/Robotics Club, Member of Electrical Engineering Club, Student Lecturer at Research & Development Center, School Volunteer</p>
+              </div>
+            </li>
+            <!-- CMU -->
+            <li class="media">
+              <img src="images/cmu.png" class="mr-3" alt="..." width="64" height="64">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Entertainment Technology Center @ CMU</h5>
+                <p class="badge badge-info">Jun 2017 - Aug 2017</p>
+                <p>I attended a 6-week summer program, the <a href="">National High School Game Academy</a>, at Carnegie Mellon University where I learned game development, Unity, and C#. I was under the guidance and instruction of professor <a href="">G.C. Klug</a>.</p>
+              </div>
+            </li>  
+          </ul>  
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Fake anchor, otherwise the fixed navbar on the top would cover the title -->
+          <a id="experience" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
+          <h1>Experience👔</h1>
+          <ul class="list-unstyled">
+            <li class="media">
+              <img src="images/dairybrain.png" class="mr-3" alt="..." width="64" height="64">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Research Assistant @ <a href="https://dairybrain.wisc.edu/" target="_blank">Dairy Brain</a></h5>
+                <p class="badge badge-info">Jan 2020 - Present</p>
+<!--                 <p>😏</p> -->
+              </div>
+            </li>
+            <li class="media">
+              <img src="images/ulc.png" class="mr-3" alt="..." width="64" height="64">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Computer Sciences Tutor @ <a href="https://www.engr.wisc.edu/academics/student-services/ulc/" target="_blank">Undergratuate Learning Center</a></h5>
+                <p class="badge badge-info">Sep 2019 - Present</p>
+                <p>Offered drop-in and by-appointment tutoring sessions for introductory programming courses <a href="courseGuide.html">(CS 200/300/400)</a> to individual or small groups of engineering students to improve academic performance.</p>
+              </div>
+            </li>
+            <li class="media">
+              <img src="images/coursera.jpeg" class="mr-3" alt="..." width="64" height="64">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Subtitle Translator @ Coursera</h5>
+                <p class="badge badge-info">May 2019 - Present</p>
+                <p>As a member of the Coursera Global Translator Community (GTC), I help translate English subtitles to Simplified Chinese subtitles in multiple courses (An Introduction to Programming, Building Web Applications in PHP, Neural Networks and Deep Learning).</p>
+              </div>
+            </li>
+            <li class="media">
+              <img src="images/liz.png" class="mr-3" alt="..." width="64" height="64">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Student Supervisor @ <a href="https://www.housing.wisc.edu/dining/locations/liz/" target="_blank">Liz's Market</a></h5>
+                <p class="badge badge-info">Sep 2018 - May 2019</p>
+                <p>I started as a team member and got promoted two months later. Supported other student employees and provided training and supervision to ensure that they can excel in their tasks. Demonstrated leadership and acted as a role model while working with a diverse population of student employees. I'm proud to be the only international student in the student supervisor team!</p>
+              </div>
+            </li>
+            <li class="media">
+              <img src="images/rdc.png" class="mr-3" alt="..." width="64" height="64">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Student Lecturer @ <a href="https://www.jdfz.sh.cn" target="_blank">High School Affiliated to Shanghai Jiao Tong University</a></h5>
+                <p class="badge badge-info">Sep 2017 - May 2018</p>
+                <p>Designed introductory computer sciences course and prepared teaching materials with another student lecturer (<a href="https://www.linkedin.com/in/yongming-ge-308484173/" target="_blank">Yongming Ge</a>, also my favorite person). Gave lectures on AP Computer Sciences A to 10+ students.</p>
+              </div>
+            </li> 
+          </ul>  
+        </div>
+      </div>
+    </div>
+
+    <!-- Contacts -->
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Fake anchor, otherwise the fixed navbar on the top would cover the title -->
+          <a id="contacts" style=" position: relative;top: -60px;display: block;height: 0;overflow: hidden;"></a>
+          <h1>Contacts</h1>
+          <p><a href="mailto:ychen939@wisc.edu" target="_blank">ychen939@wisc.edu</a></p>
+          <p><a href="sms:+16089600303">(+1) 608-590-3114</a> (US) <a href="sms:+8613564799996">(+86) 157-1720-4959</a> (CN)</p>
+          <a href="mailto:ychen939@wisc.edu" class="smlinks"><i class="fas fa-envelope-square fa-2x"></i></a>
+          <a href="https://www.linkedin.com"  class="smlinks" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/yushunchen" class="smlinks" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+          <a href="https://www.facebook.com/yushun.chen.501" class="smlinks" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="https://twitter.com/CYushun" class="smlinks" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="https://www.instagram.com/oliver7chen/" class="smlinks" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://www.snapchat.com/add/olivercys" class="smlinks" target="_blank"><i class="fab fa-snapchat-square fa-2x"></i></a>
+          <!-- TODO: 调用微信内置浏览器打开这个链接 -->
+          <a href="https://u.wechat.com/EEVm_3AGp_hr3O22zRLFQO8" class="smlinks" target="_blank"><i class="fab fa-weixin fa-2x"></i></a>
+          <a href="sms:+16089600303" class="smlinks" target="_blank"><i class="fas fa-comment fa-2x"></i></a>
+        </div>
+      </div>
+      <p>Special thanks to <a href="https://ruipeterpan.github.io/" target = "_blank">Rui Pan</a>.</p>
+      <p>Currently v1.1. Code licensed MIT.</p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
