@@ -54,7 +54,7 @@ table {
 */
 
 body {
-  background: #293f50;
+  background: rgb(188, 0, 0);
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -201,7 +201,7 @@ em {
 */
 
 a {
-  color: #648880;
+  color: rgb(80, 0, 0);
   text-decoration: none;
 }
 a:hover {
@@ -272,6 +272,7 @@ p a {
 .tagline {
   margin: 66px 0 22px 0;
   text-align: right;
+  color: rgb(12, 8, 8);
 }
 .primary-nav {
   font-size: 14px;
