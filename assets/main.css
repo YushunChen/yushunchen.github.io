@@ -294,8 +294,9 @@ p a {
   padding-top: 44px;
 }
 .primary-footer small {
+  color: rgb(0, 0, 0);
   float: left;
-  font-weight: 400;
+  font-weight: 369;
 }
 
 /*
@@ -323,7 +324,6 @@ p a {
 */
 
 .hero {
-  /*color: #fff;*/
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
