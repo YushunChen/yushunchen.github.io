@@ -323,17 +323,19 @@ p a {
 */
 
 .hero {
-  color: #fff;
+  /*color: #fff;*/
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
 }
 .hero h2 {
+  color: rgb(12, 8, 8);
   font-size: 24px;
 }
 .hero p {
-  font-size: 24px;
-  font-weight: 100;
+  color: rgb(250, 250, 250);
+  font-size: 18px;
+  font-weight: 300;
 }
 .teaser a:hover h3 {
   color: #a9b2b9;
