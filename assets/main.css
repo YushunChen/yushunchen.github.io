@@ -55,6 +55,7 @@ table {
 
 body {
   background: rgb(188, 0, 0);
+  /*background: rgba(188, 0, 0, 0.8);*/
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
