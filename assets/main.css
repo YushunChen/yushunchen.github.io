@@ -205,7 +205,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #a9b2b9;
+  color: rgb(188, 0, 0);
 }
 p a {
   border-bottom: 1px solid #dfe2e5;
@@ -372,7 +372,7 @@ p a {
 
 /*
   ========================================
-  Schedule
+  Course Tables
   ========================================
 */
 
@@ -381,7 +381,7 @@ table {
   width: 100%;
 }
 table:last-child {
-  margin-bottom: 0;
+  margin-bottom: 45;
 }
 th,
 td {
@@ -389,15 +389,15 @@ td {
   vertical-align: top;
 }
 th {
-  padding-right: 45px;
-  text-align: right;
-  width: 20%;
+  padding-right: 100px;
+  text-align: left;
+  width: 25%;
 }
 td {
-  width: 40%;
+  width: 50%;
 }
 thead {
-  line-height: 44px;
+  line-height: 40px;
 }
 thead th {
   color: #648880;
@@ -405,12 +405,15 @@ thead th {
 }
 tbody th {
   color: #a9b2b9;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   padding-top: 22px;
   text-transform: uppercase;
 }
 tbody td {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 350;
   border-top: 1px solid #dfe2e5;
   padding-top: 21px;
 }
