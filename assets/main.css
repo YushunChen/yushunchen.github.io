@@ -401,9 +401,11 @@ td {
 thead {
   line-height: 40px;
 }
+/*Course names content*/
 thead th {
   color: #648880;
   font-size: 24px;
+  width: 50%;
 }
 /*The leftmost column data*/
 tbody th {
