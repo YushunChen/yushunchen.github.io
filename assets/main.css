@@ -468,7 +468,11 @@ table h4 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgb(188, 0, 0);
+  /*background-color: #cbe2c1;*/
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -481,7 +485,7 @@ table h4 {
 
 .slide-text {
   white-space: nowrap; 
-  color: white;
+  color: #648880;
   font-size: 20px;
   position: absolute;
   overflow: hidden;
