@@ -457,7 +457,7 @@ table h4 {
 
 .desc-image {
   display: block;
-  width: 100%;
+  width: 200%;
   height: auto;
   /*float: left;*/
   margin-right: 10px;
@@ -468,7 +468,7 @@ table h4 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: rgb(188, 0, 0);
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -476,7 +476,7 @@ table h4 {
 }
 
 .slide-container:hover .overlay {
-  width: 100%;
+  width: 200%;
 }
 
 .slide-text {
