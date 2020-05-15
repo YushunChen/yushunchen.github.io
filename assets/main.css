@@ -438,7 +438,7 @@ table h4 {
 */
 .desc-text{
   color: rgb(0, 0, 0);
-  font-size: 18px
+  font-size: 18px;
 }
 .desc-img{
   float: left;
@@ -450,7 +450,7 @@ table h4 {
   Overlay trial
   ========================================
 */
-.container2 {
+.slide-container {
   position: relative;
   width: 50%;
 }
@@ -459,12 +459,14 @@ table h4 {
   display: block;
   width: 100%;
   height: auto;
+  /*float: left;*/
+  margin-right: 10px;
 }
 
 .overlay {
   position: absolute;
   bottom: 0;
-  left: 100%;
+  left: 0;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
@@ -473,12 +475,11 @@ table h4 {
   transition: .5s ease;
 }
 
-.container2:hover .overlay {
+.slide-container:hover .overlay {
   width: 100%;
-  left: 0;
 }
 
-.text {
+.slide-text {
   white-space: nowrap; 
   color: white;
   font-size: 20px;
