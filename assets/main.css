@@ -133,7 +133,7 @@ body {
   background: #fff;
   padding: 66px 0 44px 0;
 }
-/*Horizontal 渐变 bar*/
+/*Horizontal 渐变 bar unused 5/19*/
 .row-alt {
   background: #cbe2c1;
   background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
