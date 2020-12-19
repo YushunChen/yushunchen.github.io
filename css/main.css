@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#typing-span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+/* Project Images zoom effect */
+.zoom-project {
+  transition: transform .2s;
+  color: black;
+  display: inline-block;
+}
+.zoom-project:hover {
+  -ms-transform: scale(1.2);
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+/* Contact zoom effect */
+.zoom-icon {
+  transition: transform .2s;
+  color: black;
+  display: inline-block;
+}
+.zoom-icon:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+school-pic {
+  height: 200px;
+  width: 200px;
+}
+
+.floating {   
+  animation-name: floating; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease-in-out; 
+  /* margin-left: 30px;  */
+} 
+
+@keyframes floating { 
+  0% { transform: translate(0,  0px); } 
+  50%  { transform: translate(0, 15px); } 
+  100%   { transform: translate(0, -0px); }     
+} 
+
+.skill-logo {
+  height: 80px;
+  width: 80px;
+}
