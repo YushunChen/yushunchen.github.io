@@ -1,3 +1,5 @@
-# yushunchen.com
+# Portfolio Website
+This is my personal portfolio website.
+Developed in December 2020.
 
-This is my static portfolio website...
+## Thanks to everyone who has visited!
