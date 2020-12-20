@@ -1,6 +1,11 @@
 .desc-image {
   height: auto;
   width: 350px;
-  margin-left: 30px;
+  margin-left: 40px;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.desc-text {
+    margin-top: 20px;
 }
