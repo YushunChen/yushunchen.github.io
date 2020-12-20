@@ -7,5 +7,13 @@
 }
 
 .desc-text {
-    margin-top: 20px;
+  margin-top: 20px;
+}
+
+.fake-anchor {
+  position: relative;
+  top: -60px;
+  display: block;
+  height: 0;
+  overflow: hidden;
 }
