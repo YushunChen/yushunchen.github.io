@@ -71,7 +71,7 @@
 
 .card2:hover .filledbar {
   /* Progress */
-  width: 150px;
+  width: 140px;
   transition: 0.4s ease-out;
 }
 
@@ -81,17 +81,17 @@
   transition: 0.4s ease-out;
 }
 
+.card4:hover .filledbar {
+  /* Progress */
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
 .cardCS:hover .filledbar {
     /* 150px is the max */
     width: 75px;
     transition: 0.4s ease-out;
   }
-
-.card4:hover .filledbar {
-  /* Progress */
-  width: 75px;
-  transition: 0.4s ease-out;
-}
 
 .circle {
   position: absolute;
